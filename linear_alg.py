@@ -38,9 +38,10 @@ print("Eigenvectors", evecs)
 #reverse matrix through np.linalg.inv(array mame)
 
 #to get the determinant:
+ex_1 = np.array([[1, 2, 0], [5, 4, -2], [0, -1, 0]])
 
-determ = np.linalg.det(A)
-print(determ)
+determ = np.linalg.det(ex_1)
+print("the determinant of example 1 on page 202 is: ", determ)
 
 #to get the trace of the matrix
 
